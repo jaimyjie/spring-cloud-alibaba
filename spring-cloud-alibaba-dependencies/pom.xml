@@ -18,7 +18,7 @@
     <description>Spring Cloud Alibaba Dependencies</description>
 
     <properties>
-        <revision>2023.0.1.2.1</revision>
+        <revision>2023.0.1.2</revision>
         <sentinel.version>1.8.8</sentinel.version>
         <nacos.client.version>2.4.2</nacos.client.version>
         <seata.version>2.1.0</seata.version>
@@ -170,17 +170,12 @@
                 <artifactId>sentinel-spring-webmvc-v6x-adapter</artifactId>
                 <version>${sentinel.version}</version>
             </dependency>
+            <!--apache Seata-->
             <dependency>
                 <groupId>org.apache.seata</groupId>
                 <artifactId>seata-spring-boot-starter</artifactId>
                 <version>${seata.version}</version>
             </dependency>
-<!--            &lt;!&ndash;Alibaba Seata&ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>io.seata</groupId>-->
-<!--                <artifactId>seata-spring-boot-starter</artifactId>-->
-<!--                <version>${seata.version}</version>-->
-<!--            </dependency>-->
             <!--Alibaba RocketMQ-->
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
