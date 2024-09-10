@@ -284,12 +284,6 @@
                 <version>${revision}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.alibaba.spring</groupId>
-                <artifactId>spring-context-support</artifactId>
-                <version>${spring.context.support.version}</version>
-            </dependency>
-
             <!-- Testing Dependencies -->
             <dependency>
                 <groupId>org.springframework.ai</groupId>
