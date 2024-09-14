@@ -56,7 +56,7 @@
         <dependency>
             <groupId>com.aliyun</groupId>
             <artifactId>aliyun-java-sdk-core</artifactId>
-            <version>4.4.6</version>
+            <version>4.7.1</version>
         </dependency>
         <!-- schedulerx dependency end-->
 

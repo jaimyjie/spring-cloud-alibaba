@@ -27,17 +27,17 @@
 
         <!-- Spring AI -->
         <spring.ai.version>1.0.0-M1</spring.ai.version>
-        <dashscope-sdk-java.version>2.15.1</dashscope-sdk-java.version>
+        <dashscope-sdk-java.version>2.16.4</dashscope-sdk-java.version>
 
         <!-- scheduling -->
-        <shedlock.version>4.23.0</shedlock.version>
-        <schedulerx.worker.version>1.11.4</schedulerx.worker.version>
+        <shedlock.version>5.16.0</shedlock.version>
+        <schedulerx.worker.version>1.11.6</schedulerx.worker.version>
 
         <!-- Maven Plugin Versions -->
-        <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
-        <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
-        <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
-        <flatten-maven-plugin.version>1.2.7</flatten-maven-plugin.version>
+        <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
+        <maven-javadoc-plugin.version>3.10.0</maven-javadoc-plugin.version>
+        <maven-gpg-plugin.version>3.2.5</maven-gpg-plugin.version>
+        <flatten-maven-plugin.version>1.6.0</flatten-maven-plugin.version>
     </properties>
 
     <dependencyManagement>
@@ -290,6 +290,12 @@
                 <artifactId>spring-ai-test</artifactId>
                 <version>${spring.ai.version}</version>
                 <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.fastjson2</groupId>
+                <artifactId>fastjson2</artifactId>
+                <version>2.0.52</version>
             </dependency>
 
         </dependencies>
